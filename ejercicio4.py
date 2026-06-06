@@ -9,4 +9,4 @@ with open("temperaturas.txt", "r") as archivo:
             diccionario_ciudades[ciudad] = []
         diccionario_ciudades[ciudad].append(temperatura)
 
-print("Resultado de la lectura:", diccionario_ciudades)
+print("diccionario final:", diccionario_ciudades)
