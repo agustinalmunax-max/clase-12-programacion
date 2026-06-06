@@ -1,0 +1,19 @@
+Las lista son un grupo de elementos el cual de puede modificar de diversas formas (meter, sacar o cambiar elementos). 
+por ejemplo: "lista_de_nombres = [joaquin, Eduardo, matias, lucas, pedro]"
+y para agregarle elementos podríamos utilizar ".append()" o filtrar cosas especificas por medio de un "for".
+
+una tupla por otro lado es también un grupo de elementos pero que en esta ocasión no es modificable. actúa como una lista a la que no se le pueden quitar ni agregar elementos.
+por ejemplo: "tamaño_de_pantalla = (1920, 1080)
+al intentar modificar los datos de "tamaño_de_pantalla", el programa presentara errores.
+
+Conjunto es una lista de elementos que no pueden repetirse, por tanto un dato no puede ponerse mas de una vez (a diferencia de las listas).
+por ejemplo: usuarios_del_programa = {pedro, juan, luis}
+podríamos agregar mas usuarios pero no podríamos agregar otro pedro, juan o Luis a la lista de usuarios.
+
+finalmente, un diccionario es una lista (tal como todas las anteriores), pero contiene parejas de elementos (no elementos sueltos. sino "variables" o elementos asociados a otros).
+por ejemplo: estudiante = {
+		"nombre": "Lucas",
+		"apellido": "Martínez",
+		"carrera": "Telecomunicaciones",
+		"promedio": 8.5
+		}
