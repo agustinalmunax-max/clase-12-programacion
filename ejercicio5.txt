@@ -1,0 +1,24 @@
+def limpiar(texto):
+    return texto.strip().capitalize()
+
+def es_valido(nombre):
+    if len(nombre) >= 3:
+        return True
+    return False
+
+nombres = [" bart ", "ED", " walter", "rick "]
+validos = []
+
+for nombre in nombres:
+    nombre_limpio = limpiar(nombre)
+
+    if es_valido(nombre_limpio):
+        validos.append(nombre_limpio)
+
+print(validos)
+
+este programa filtra una lista de nombres, aplicando un filtro que solo permita lo nombres con mas de 3 letras dentro de una nueva lista.
+dentro de el programa hay modificaciones que se le aplican a cada nombre.
+la linea de código "limpiar", aplica "strip" y "capitalize", modificando los nombres para dejarlos sin espacios a los costados y con una sola mayuscula al inicio, cumpliendo con su nombre al "limpiar" los nombres y dejarlos todos en un formato especifico, mas formal.
+la linea de código "es_valido" se encarga determinar de el nombre cumple con el mínimo de letras o no (mas de 3 letras). si el programa que tiene mas de 3 (True), ese nombre de va a la lista de validos. sino, lo determina como un False y no se lo agrega a la lista.
+al final el programa imprime: ['Bart', 'Walter', 'Rick']
