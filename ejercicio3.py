@@ -13,4 +13,4 @@ for alumno in alumnos:
     archivo.write(alumno + "\n")
 archivo.close()
 
-print("¡Archivo guardado!")
+print("Archivo guardado")
